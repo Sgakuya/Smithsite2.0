@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Home from "@/components/Home";
+import styles from "../index.css";
 
 export default function MainApp() {
   return (
@@ -9,8 +11,9 @@ export default function MainApp() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={styles.body}>
         <h1>Portfolio App</h1>
+        <Home/>
       </main>
     </>
   );

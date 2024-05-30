@@ -1,0 +1,11 @@
+.links{
+    display: flex;
+    width: 258px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+    background: #792D2D;
+    box-shadow: 10px 10px 50px 0px rgba(2, 250, 27, 0.25) inset;
+}
